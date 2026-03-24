@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Contact Form</h2>
+
+    <form action="/contact" method="POST">
+        <input type="text" name="user[name]" placeholder="Enter your name" required>
+
+        <input type="email" name="user[email]" placeholder="Enter your email" required>
+
+        <textarea name="user[message]" placeholder="Enter your message" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
